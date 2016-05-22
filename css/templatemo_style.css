@@ -329,8 +329,9 @@ h6 {
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
-  line-height: 82px;
+  line-height: 41px;
   display: block;
+  font-size:2em;
 }
 #templatemo_logo h1 a {
   margin-left: 140px;
@@ -634,7 +635,13 @@ h6 {
   text-decoration: line-through;
   font-weight: 600;
 }
-
+.product-item > .item-thumb > img {
+  height:200px !important;
+  border: 3px solid #00e699;
+}
+.item-large > img {
+  border: 3px solid #00e699;
+}
 /* ==========================================================================
     Contact Styling
    ========================================================================== */
