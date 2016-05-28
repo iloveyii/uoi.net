@@ -270,7 +270,9 @@ h6 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+.section-top {
+  border-top:none !important;
+}
 .section-title {
   border-top: 1px solid #e1e6e9;
   margin-top: 60px;
@@ -365,7 +367,7 @@ h6 {
 }
 .main-menu ul li a.current {
   background: url(../images/active-state.png) no-repeat;
-  background-position: center 65px;
+  background-position: center 55px;
 }
 
 .toggle-menu {
@@ -767,6 +769,9 @@ ul.social li a {
 @media (max-width: 767px) {
   .section-title {
     font-size: 24px;
+  }
+  .section-top {
+    border-top:none !important;
   }
 
   .contact-form {
