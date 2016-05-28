@@ -52,11 +52,18 @@
 var map = '';
 
 function initialize() {
-    var mapOptions = {
+	var myLatLng = {lat: 33.729998, lng: 73.037313};
+	var mapOptions = {
       zoom: 14,
-      center: new google.maps.LatLng(37.769725, -122.462154)
+      center: myLatLng
     };
     map = new google.maps.Map(document.getElementById('map'),  mapOptions);
+	var marker = new google.maps.Marker({
+		position: myLatLng,
+		map: map,
+		title: 'Shah Faisal Masjid Islamabad'
+	});
+
 }
 
 // load google map

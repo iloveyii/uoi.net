@@ -639,8 +639,8 @@ h6 {
   height:200px !important;
   border: 3px solid #00e699;
 }
-.item-large > img {
-  border: 3px solid #00e699;
+.item-large > img, .light-green-border {
+  border: 3px solid #00e699 !important;
 }
 /* ==========================================================================
     Contact Styling
