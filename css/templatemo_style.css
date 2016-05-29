@@ -485,7 +485,11 @@ h6 {
   font-size: 20px;
   color: white;
 }
-
+.img-slider {
+  width:100% !important;
+  max-width: 1800px !important;
+  height: 400px !important;
+}
 /* ==========================================================================
     Services Styling
    ========================================================================== */
