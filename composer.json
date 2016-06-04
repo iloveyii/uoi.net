@@ -1,0 +1,13 @@
+{
+    "name": "softhem/greenish",
+    "description": "HTML 5 Twitter Bootstrap 3 template for front page",
+    "type": "html",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hazrat Ali",
+            "email": "iloveyii@yahoo.com"
+        }
+    ],
+    "require": {}
+}
